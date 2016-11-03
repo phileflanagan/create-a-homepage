@@ -1,7 +1,6 @@
-.jumbotron {
-  margin: 0;
-}
+section { padding: 6em 0; }
+.jumbotron { margin: 0; }
 
-section {
-  padding: 6em 0;
+@media (max-width: 768px) {
+  .mobile-center {text-align: center; }
 }

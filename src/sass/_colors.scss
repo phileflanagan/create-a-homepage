@@ -20,5 +20,5 @@ $main-overlay: transparentize($main, 0.5);
 .text-dk-gray { color: $dk-gray; }
 .text-xd-gray { color: $xd-gray; }
 
-// Ensures the 'a' tag gets the proper color inheriting from a .text-* class
+// Ensures the 'a' tag gets the proper color inheriting from a .border-color:*
 [class^='text'] a, [class*='text'] a { color: inherit }
