@@ -47,5 +47,5 @@ node_modules
 *.tgz
 
 # Ignore Other Stuff
-'Challenge Directions - Build a Homepage.pdf'
+'Challenge Directions - Build a Homepage.pdf'*
 test_screenshots
