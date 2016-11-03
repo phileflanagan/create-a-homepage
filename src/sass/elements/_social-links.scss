@@ -1,0 +1,6 @@
+.social-links i,
+.social-links span {
+  font-size: 14pt;
+  margin: 5px;
+  &:hover { color: lighten($main, 10); }
+}

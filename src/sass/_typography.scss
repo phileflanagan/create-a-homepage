@@ -1,19 +1,24 @@
 $opensans: 'Open Sans', sans-serif;
 
 
-body { font-family: $opensans; }
-
+body {
+  font-family: $opensans;
+  line-height: 1.6;
+}
 section h2 {
   font-size: 30pt;
   margin-bottom: 5px;
 }
 
 p {
-  line-height: 1.6;
   font-size: 12pt;
   margin: 0.5em 0 1em;
 }
 
+figcaption {
+  font-size: 11pt;
+  margin: 0.5em;
+}
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }

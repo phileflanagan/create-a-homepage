@@ -1,0 +1,8 @@
+.logos img {
+  height: 26px;
+  margin: 0 34px;
+}
+
+@media (max-width: 768px) {
+  .logos img { margin: 0 10px; }
+}
