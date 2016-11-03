@@ -4,8 +4,7 @@
   "description": "Made with <3 by Phil Flanagan.",
   "main": "public/js/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "uglify": "uglify.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git"
