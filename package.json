@@ -1,0 +1,25 @@
+{
+  "name": "phil-flanagan-build-a-homepage-challenge",
+  "version": "1.0.0",
+  "description": "Made with <3 by Phil Flanagan.",
+  "main": "public/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "uglify": "uglify.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Phil Flanagan",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}

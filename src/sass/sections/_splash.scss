@@ -1,0 +1,15 @@
+.splash {
+  position: relative;
+  background:
+    linear-gradient(
+      $main-overlay, $main-overlay
+    ),
+    url('../images/office.jpeg') top center / cover;
+  padding: 10em 1em;
+  color: white;
+
+  p {
+    line-height: 1.5;
+    font-weight: 300;
+  }
+}
