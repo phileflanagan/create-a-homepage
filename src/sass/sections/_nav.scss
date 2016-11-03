@@ -6,10 +6,11 @@
   border: 0;
   width: 100%;
 
-  a { color: white; font-weight: 600; }
+  a { font-weight: 600; }
 }
 
-.nav li a:hover {
+.nav li a:hover,
+.nav li a:focus {
   background-color: transparent;
   color: transparentize(white, 0.2);
 }

@@ -5,8 +5,47 @@
 /*
  * Import Globals
  */
+.jumbotron {
+  margin: 0; }
+
+section {
+  padding: 6em 0; }
+
 body {
   font-family: "Open Sans", sans-serif; }
+
+.bg-main {
+  background-color: #5c1bb7; }
+
+.bg-light {
+  background-color: white; }
+
+.bg-dark {
+  background-color: #222; }
+
+.bg-xdark {
+  background-color: #1f1f1f; }
+
+.text-main {
+  color: #5c1bb7; }
+
+.text-white {
+  color: white; }
+
+.text-lt-gray {
+  color: #7b7b7b; }
+
+.text-md-gray {
+  color: #333; }
+
+.text-dk-gray {
+  color: #222; }
+
+.text-xd-gray {
+  color: #1f1f1f; }
+
+[class^='text'] a, [class*='text'] a {
+  color: inherit; }
 
 /*
  * Import Elements
@@ -34,10 +73,10 @@ body {
   border: 0;
   width: 100%; }
   .navbar a {
-    color: white;
     font-weight: 600; }
 
-.nav li a:hover {
+.nav li a:hover,
+.nav li a:focus {
   background-color: transparent;
   color: rgba(255, 255, 255, 0.8); }
 

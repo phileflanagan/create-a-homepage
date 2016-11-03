@@ -1,2 +1,24 @@
+// Color Declarations
 $main: #5c1bb7;
+$lt-gray: #7b7b7b;
+$md-gray: #333;
+$dk-gray: #222;
+$xd-gray: #1f1f1f;
 $main-overlay: transparentize($main, 0.5);
+
+// Background Colors
+.bg-main  { background-color: $main; }
+.bg-light { background-color: white; }
+.bg-dark  { background-color: $dk-gray; }
+.bg-xdark { background-color: $xd-gray;}
+
+// Text Colors
+.text-main    { color: $main; }
+.text-white   { color: white; }
+.text-lt-gray { color: $lt-gray; }
+.text-md-gray { color: $md-gray; }
+.text-dk-gray { color: $dk-gray; }
+.text-xd-gray { color: $xd-gray; }
+
+// Ensures the 'a' tag gets the proper color inheriting from a .text-* class
+[class^='text'] a, [class*='text'] a { color: inherit }
