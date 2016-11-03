@@ -8,23 +8,15 @@
 section {
   padding: 6em 0; }
 
+section figure {
+  width: 80%; }
+
 .jumbotron {
   margin: 0; }
 
 @media (max-width: 768px) {
   .mobile-center {
     text-align: center; } }
-
-body {
-  font-family: "Open Sans", sans-serif; }
-
-section h2 {
-  font-size: 30pt; }
-
-p {
-  line-height: 1.2;
-  font-size: 12pt;
-  margin: 1.5em 0; }
 
 .bg-main {
   background-color: #5c1bb7; }
@@ -58,6 +50,21 @@ p {
 
 [class^='text'] a, [class*='text'] a {
   color: inherit; }
+
+body {
+  font-family: "Open Sans", sans-serif; }
+
+section h2 {
+  font-size: 30pt;
+  margin-bottom: 5px; }
+
+p {
+  line-height: 1.6;
+  font-size: 12pt;
+  margin: 0.5em 0 1em; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600; }
 
 /*
  * Import Elements
@@ -98,6 +105,22 @@ p {
     border-color: transparent;
     background-color: #7b7b7b;
     color: #222; }
+
+.lead-box {
+  margin: 0 0 4em; }
+
+.info-block {
+  padding: 5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out; }
+  .info-block i {
+    font-size: 24pt; }
+  .info-block:hover {
+    background-color: rgba(255, 255, 255, 0.03); }
 
 /*
  * Import Sections

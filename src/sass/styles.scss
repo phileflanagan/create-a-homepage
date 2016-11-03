@@ -7,14 +7,16 @@
  * Import Globals
  */
 @import 'structure';
-@import 'typography';
 @import 'colors';
+@import 'typography';
 
 
 /*
  * Import Elements
  */
 @import 'elements/buttons';
+@import 'elements/lead-box';
+@import 'elements/info-block';
 
 /*
  * Import Sections

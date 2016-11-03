@@ -1,0 +1,10 @@
+.info-block {
+  padding: 5%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  transition: all 250ms ease-in-out;
+
+  i { font-size: 24pt; }
+
+  &:hover { background-color: rgba(255,255,255,0.03); }
+}
