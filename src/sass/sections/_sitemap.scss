@@ -1,0 +1,6 @@
+//Fix Bootstrap Differing Lines/Height Float Issue
+@media (max-width: 768px) {
+  .sitemap .col-xs-6:nth-child(2n+1) {
+      clear: both;
+  }
+}

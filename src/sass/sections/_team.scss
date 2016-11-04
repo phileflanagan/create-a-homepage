@@ -21,3 +21,16 @@
 #miley {
     background-image: url('/assets/images/team/miley.jpg');
 }
+
+
+// Handle Animation
+#team-row figure {
+  opacity: 0;
+  right: 50px;
+  transition: all 350ms ease-in-out;
+
+  &.is-showing {
+    right: 0;
+    opacity: 1;
+  }
+}

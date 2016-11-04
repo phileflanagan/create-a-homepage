@@ -6,6 +6,7 @@ var plumber     = require('gulp-plumber');
 var notify      = require('gulp-notify');
 var uglify      = require('gulp-uglify');
 var rename      = require('gulp-rename');
+var babel       = require('gulp-babel');
 
 
 // Static Server + watching scss/html files
@@ -43,6 +44,10 @@ gulp.task('sass', function() {
 //Compile and Minify JavaScript
 gulp.task('js', function() {
     return gulp.src('./src/javascript/index.js')
+       .pipe(babel({
+         presets: ['es2015'],
+         compact: true
+       }))
       .pipe(uglify())
       .pipe(rename('index.min.js'))
       .pipe(gulp.dest('./dist/assets/javascript/'))

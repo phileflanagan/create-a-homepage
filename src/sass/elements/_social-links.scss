@@ -1,6 +1,11 @@
 .social-links i,
 .social-links span {
   font-size: 14pt;
-  margin: 5px;
+  margin: 0px 5px;
   &:hover { color: lighten($main, 10); }
+}
+
+.social-links.close-to i,
+.social-links.close-to span {
+  margin: 0px 2px;
 }
